@@ -1,0 +1,13 @@
+# Terraform dosyaları
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Değişken dosyaları (Şifre içerebilir)
+*.tfvars
+*.auto.tfvars
+
+# IDE ayar dosyaları
+.vscode/
+.idea/
